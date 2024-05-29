@@ -10,7 +10,7 @@
         android:layout_width="144dp"
         android:layout_height="60dp"
         android:layout_marginTop="68dp"
-        style="@style/CustomButton"
+        android:background="@drawable/button_background"
         android:text="EN 2021"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

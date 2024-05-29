@@ -3,17 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="#000000"
-        android:title="Evaluare Națională"
-        android:titleTextAppearance="@style/ToolbarTitleStyle"
-        android:elevation="4dp">
-    </androidx.appcompat.widget.Toolbar>
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

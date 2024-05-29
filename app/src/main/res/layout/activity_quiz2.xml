@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Întrebarea 1 -->
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Care dintre numerele 6, 7, 8 si 9 este prim?"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer1_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 6" />
+            <RadioButton
+                android:id="@+id/answer1_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 7" />
+            <RadioButton
+                android:id="@+id/answer1_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 8" />
+            <RadioButton
+                android:id="@+id/answer1_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 9" />
+        </RadioGroup>
+
+        <!-- Întrebarea 2 -->
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Dacă 7 caiete de același fel costă 28 de lei atunci 3 caiete vor costa?"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer2_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 12" />
+            <RadioButton
+                android:id="@+id/answer2_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 15" />
+            <RadioButton
+                android:id="@+id/answer2_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 3" />
+            <RadioButton
+                android:id="@+id/answer2_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 21" />
+        </RadioGroup>
+
+        <!-- Întrebarea 3 -->
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Maria și Ioana au vartele direct proporționale cu 2 și 3. Dacă, peste 10 ani suma vârstelor celor
+două fete va fi 55 de ani, inseamnă ca Ioana are acum :"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer3_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 18" />
+            <RadioButton
+                android:id="@+id/answer3_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 20" />
+            <RadioButton
+                android:id="@+id/answer3_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 27" />
+            <RadioButton
+                android:id="@+id/answer3_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 29" />
+        </RadioGroup>
+
+        <!-- Întrebarea 4 -->
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Soluţia ecuaţiei 3(x + 3) = 6 − 2x este:"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer4_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) -5 " />
+            <RadioButton
+                android:id="@+id/answer4_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) -3 " />
+            <RadioButton
+                android:id="@+id/answer4_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 5 " />
+            <RadioButton
+                android:id="@+id/answer4_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 3 " />
+        </RadioGroup>
+
+        <!-- Întrebarea 5 -->
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. CSuma numerelor întregi din intervalul [-3, 5) este :"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer5_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 0" />
+            <RadioButton
+                android:id="@+id/answer5_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) -1" />
+            <RadioButton
+                android:id="@+id/answer5_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 4" />
+            <RadioButton
+                android:id="@+id/answer5_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 9" />
+        </RadioGroup>
+
+        <!-- Întrebarea 6 -->
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Prețul unui telefon mobil este 1800 de lei. După o ieftinire cu 30%, prețul va fi :"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer6_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 1300" />
+            <RadioButton
+                android:id="@+id/answer6_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 1260" />
+            <RadioButton
+                android:id="@+id/answer6_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 540" />
+            <RadioButton
+                android:id="@+id/answer6_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 1360" />
+        </RadioGroup>
+
+        <!-- Butonul de confirmare -->
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmă răspunsurile"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Butonul de întoarcere -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Înapoi"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

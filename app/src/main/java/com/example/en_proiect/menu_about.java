@@ -18,7 +18,7 @@ public class menu_about extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_menu_about);
 
-        Button backButton = findViewById(R.id.button);
+        Button backButton = findViewById(R.id.btn_back);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

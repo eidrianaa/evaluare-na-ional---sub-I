@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Întrebarea 1 -->
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Rezultatul calculului (−15+1):(−6−1) este:"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer1_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) -2" />
+            <RadioButton
+                android:id="@+id/answer1_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 2" />
+            <RadioButton
+                android:id="@+id/answer1_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 3" />
+            <RadioButton
+                android:id="@+id/answer1_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 1" />
+        </RadioGroup>
+
+        <!-- Întrebarea 2 -->
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Cel mai mare număr de forma 𝑥2𝑦 divizibil cu 2, este:"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer2_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 928" />
+            <RadioButton
+                android:id="@+id/answer2_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 990" />
+            <RadioButton
+                android:id="@+id/answer2_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 726" />
+            <RadioButton
+                android:id="@+id/answer2_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 828" />
+        </RadioGroup>
+
+        <!-- Întrebarea 3 -->
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Pe 2 Iunie, la Bâlea Lac s-a înregistrat temperatura de −2℃ , pe când la Sibiu au fost 19℃. Diferența dintre
+temperatura înregistrată la Sibiu și cea de la Bâlea Lac a fost:"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer3_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 17℃" />
+            <RadioButton
+                android:id="@+id/answer3_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 21℃" />
+            <RadioButton
+                android:id="@+id/answer3_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) -21℃" />
+            <RadioButton
+                android:id="@+id/answer3_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) -17℃" />
+        </RadioGroup>
+
+        <!-- Întrebarea 4 -->
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Media geometrică a numerelor a=6√3 și b=√12 este:"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer4_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 3√3 " />
+            <RadioButton
+                android:id="@+id/answer4_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 4√3 " />
+            <RadioButton
+                android:id="@+id/answer4_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 6 " />
+            <RadioButton
+                android:id="@+id/answer4_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 36 " />
+        </RadioGroup>
+
+        <!-- Întrebarea 5 -->
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Un televizor costă 1380 lei. După o mărire a prețului cu 10%, televizorul costă:"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer5_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) 1242" />
+            <RadioButton
+                android:id="@+id/answer5_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) 138" />
+            <RadioButton
+                android:id="@+id/answer5_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) 1518" />
+            <RadioButton
+                android:id="@+id/answer5_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) 1418" />
+        </RadioGroup>
+
+        <!-- Întrebarea 6 -->
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Bunica a împărțit 26 de portocale celor 3 nepoți ai ei, direct proporțional cu vârstele acestora, 3 ani, 4 ani,
+respectiv 6 ani. Aflați câte portocale a primit fiecare copil."
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <RadioGroup
+            android:id="@+id/answers6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/answer6_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) Copilul de 3 ani 6 portocale; Copilul de 4 ani 8 portocale; Copilul de 6 ani 12 portoca" />
+            <RadioButton
+                android:id="@+id/answer6_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) Copilul de 3 ani 3 portocale; Copilul de 4 ani 4 portocale; Copilul de 6 ani 6 portocale." />
+            <RadioButton
+                android:id="@+id/answer6_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) Copilul de 3 ani 8 portocale; Copilul de 4 ani 9 portocale; Copilul de 6 ani 9 portocale." />
+            <RadioButton
+                android:id="@+id/answer6_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) Copilul de 3 ani 12 portocale; Copilul de 4 ani 8 portocale; Copilul de 6 ani 6 portocale" />
+        </RadioGroup>
+
+        <!-- Butonul de confirmare -->
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmă răspunsurile"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Butonul de întoarcere -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Înapoi"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
