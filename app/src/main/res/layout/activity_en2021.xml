@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Exercițiu 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Din numerele 15, 17, 25 și 30, numărul divizibil cu 10 este:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: d) 30"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Numărul 30 este singurul din listă care este divizibil cu 10, deoarece se termină cu cifra 0."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="16dp"/>
+
+        <!-- Exercițiu 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Un obiect costă 100 de lei. După o scumpire cu 10%, noul preț al obiectului este:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: d) 110 lei"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: O scumpire de 10% adaugă 10% din 100 lei la prețul inițial, deci 100 lei + 10 lei = 110 lei."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="16dp"/>
+
+        <!-- Exercițiu 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Temperatura aerului măsurată la ora 12:00 este mai mare decât temperatura măsurată la ora 8:00 cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: b) 2°C"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Diferența de temperatură între 5°C și -3°C este de 8°C, dar întrebarea se referă la creșterea de 2°C față de temperatură negativă."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="16dp" />
+
+        <!-- Exercițiu 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Fracția subunitară din mulțimea A = {44/10, 5/4, 5/5, 4/4} este:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: b) 5/4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="32dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Fracția subunitară este cea mai mică dintre 1, unde 5/5 și 4/4 sunt egale cu 1. Prin urmare, 5/4 este cea mai mare din mulțime și singura fracție subunitară."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="32dp" />
+
+        <!-- Exercițiu 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Rezultatul calculului 2√2 − 6√2 + 3√2 este egal cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: b) -√2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Calculăm suma valorilor. (2 - 6 + 3)√2 = -1√2 = -√2."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="16dp"/>
+
+        <!-- Exercițiu 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Bunica lui Andrei are în curte 10 găini și de două ori mai multe rațe. Andrei afirmă că: „Bunica are în curte 10 găini și 20 de rațe.” Afirmatia lui Andrei este:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: a) adevărată"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Dacă bunica are 10 găini și de două ori mai multe rațe, atunci are 20 de rațe. Afirmatia lui Andrei este adevărată."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:paddingBottom="32dp"/>
+
+        <!-- Butonul de întoarcere -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Înapoi"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goBack"/>
+    </LinearLayout>
+</ScrollView>

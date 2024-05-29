@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Întrebare 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Rezultatul calculului 10+10-10 este egal cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: c) 10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Adunăm primii doi termeni (10 + 10 = 20) și apoi scădem ultimul termen (20 - 10 = 10)."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Dacă \( b^0 = 4 \), atunci \( a \div b^2 \) este egal cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: b) 5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: \( b^0 \) este mereu 1, deci ecuația nu are sens dacă \( b^0 = 4 \). Este o eroare în întrebare."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Opusul numărului 5 este:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: c) -5"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Opusul unui număr n este -n, deci opusul lui 5 este -5."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Transformând numărul 1.3 în fracție ordinară se obține:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: b) 13/10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: 1.3 poate fi scris ca 13/10, care este forma sa fracționară."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Patru elevi, Ana, George, Radu și Elena, au calculat produsul numerelor x = 2√2 și y = 1/2√2 și rezultatele obținute sunt prezentate în tabelul de mai jos:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <!-- Tabel cu răspunsuri -->
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView android:text="Ana" android:padding="8dp"/>
+                <TextView android:text="4√2" android:padding="8dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="George" android:padding="8dp"/>
+                <TextView android:text="√2" android:padding="8dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Radu" android:padding="8dp"/>
+                <TextView android:text="1" android:padding="8dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Elena" android:padding="8dp"/>
+                <TextView android:text="8" android:padding="8dp"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: c) Radu"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Produsul lui \(2\sqrt{2}\) și \(\frac{1}{2\sqrt{2}}\) este 1, deci răspunsul corect este oferit de Radu."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Andrei are 28 de ani, iar Cătălina are 13 ani. Andrei afirmă: „Peste doi ani voi avea dublul vârstei pe care o va avea Cătălina.” Afirmatia lui Andrei este:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: b) falsă"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Peste doi ani, Andrei va avea 30 de ani, iar Cătălina 15 ani. 30 nu este dublul lui 15."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Butonul de întoarcere -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Înapoi"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goBack"/>
+    </LinearLayout>
+</ScrollView>

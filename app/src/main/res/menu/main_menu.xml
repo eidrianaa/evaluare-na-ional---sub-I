@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_about"
+        android:title="Despre"/>
+    <item android:id="@+id/variante_rezolvate"
+        android:title="Variante rezolvate"/>
+    <item android:id="@+id/menu_other_resources"
+        android:title="Alte surse"/>
+    <item android:id="@+id/menu_questionnaire"
+        android:title="Chestionare"/>
+
+</menu>

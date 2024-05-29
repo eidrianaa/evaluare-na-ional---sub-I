@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Întrebare 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Rezultatul calculului 3 - (5 + 4) este egal cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: c) 6"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: 3 - (5 + 4) = 3 - 9 = -6."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Știind că x = 5/2, rezultatul calculului 2x - 5y + 10 este egal cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: b) 10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Înlocuind x cu 5/2, obținem 2*(5/2) - 5*y + 10 = 5 - 5*y + 10 = 15, presupunând y = 0."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Produsul dintre numărul 3 și opusul numărului 3 este egal cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: a) -9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Opusul lui 3 este -3. Produsul 3 * -3 = -9."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Numărul care reprezintă 2/3 din 12 este egal cu:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: c) 8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: 2/3 * 12 = 8."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Profesorul întreabă care este cel mai mare număr întreg din intervalul (-2,5). Răspunsurile date de elevii Andreea, Marina, David și Vlad sunt prezentate în tabelul de mai jos:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <!-- Tabel cu răspunsuri -->
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TableRow>
+                <TextView android:text="Elev" android:padding="8dp"/>
+                <TextView android:text="Răspuns" android:padding="8dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Andreea" android:padding="8dp"/>
+                <TextView android:text="-3" android:padding="8dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Marina" android:padding="8dp"/>
+                <TextView android:text="-2" android:padding="8dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="David" android:padding="8dp"/>
+                <TextView android:text="5" android:padding="8dp"/>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Vlad" android:padding="8dp"/>
+                <TextView android:text="4" android:padding="8dp"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: c) David"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: David a răspuns 5, care este cel mai mare număr întreg din intervalul dat."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Întrebare 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Conform informațiilor din diagramă, la acest test, nota 7 a fost obținută de 10 elevi."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <!-- Diagrama imitată -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <!-- Fiecare LinearLayout reprezintă o bară în diagramă -->
+            <TextView android:text="Nota 4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:background="#CCCCCC"/>
+
+            <TextView android:text="Nota 5" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:background="#CCCCCC"/>
+
+            <TextView android:text="Nota 6" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="120dp"
+                android:layout_height="20dp"
+                android:background="#CCCCCC"/>
+
+            <TextView android:text="Nota 7" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:background="#CCCCCC"/>
+
+            <TextView android:text="Nota 8" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:background="#CCCCCC"/>
+
+            <TextView android:text="Nota 9" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:background="#CCCCCC"/>
+
+            <TextView android:text="Nota 10" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:background="#CCCCCC"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Răspuns corect: a) adevărată"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explicație: Diagrama arată clar că 10 elevi au obținut nota 7."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+
+        <!-- Butonul de întoarcere -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Înapoi"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goBack"/>
+    </LinearLayout>
+</ScrollView>

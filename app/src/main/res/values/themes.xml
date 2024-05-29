@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.en_project" parent="Theme.Material3.DayNight.NoActionBar">
+        </style>
+
+    <style name="CustomButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+</resources>
